@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="landing-page-wrapper"
+    >
+      <form
+        class="main-content"
+        novalidate=""
+      >
+        <img
+          class="brand-logo"
+          src="sunsniffer-logo.png"
+        />
+        <h3
+          class="text-center mt-4"
+        >
+          Weather App
+        </h3>
+        <div
+          class="mb-3 mt-2"
+        >
+          <label
+            class="form-label"
+          >
+            City Name
+          </label>
+          <input
+            class="form-control"
+            name="city-name"
+            placeholder="Enter the city name"
+            required=""
+            type="text"
+            value=""
+          />
+          <div
+            class="invalid-feedback"
+          >
+            Please enter the 
+            city name
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+          data-testid="custom-button"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom button should match snapshot 1`] = `
+<body>
+  <div>
+    <button
+      class="btn btn-primary"
+      data-testid="custom-button"
+      type="button"
+    >
+      Submit
+    </button>
+  </div>
+</body>
+`;
