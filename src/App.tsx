@@ -5,12 +5,12 @@ import {
   Route
 } from "react-router-dom";
 import Loader from 'components/common/loader/loader';
-const LandingPage = React.lazy(() => import("views/landing-page/landing-page"));
+const LandingPage = React.lazy(() => import("views/landing-page"));
 const WeatherDetails = React.lazy(() => import("views/weather-details/weather-details"));
 
 function App() {
   return (
-    <div>
+    <div className="app-root-wrapper">
       <Router>
         <Suspense fallback={<Loader />}>
           <Routes>

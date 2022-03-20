@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom input should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="mb-3 "
+    >
+      <label
+        class="form-label"
+      >
+        Submit
+      </label>
+      <input
+        class="form-control"
+        name="city "
+        placeholder="test"
+        type="text"
+        value=""
+      />
+      <div
+        class="invalid-feedback"
+      >
+        Please enter the 
+        city 
+      </div>
+    </div>
+  </div>
+</body>
+`;
