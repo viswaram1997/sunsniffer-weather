@@ -1,0 +1,20 @@
+@import "scss-templates/_essential.scss";
+
+.card-root-wrapper{
+    .card-body{
+        padding: 0;
+    }
+    .card-details{
+        align-items: center;
+        justify-self: center;
+        color: $blue;
+        div[class^="col-"]{
+            text-align: center;
+            font-size: toRem(14);
+            img{
+                height: toRem(45);
+                width: auto;
+            }
+        }
+    }
+}

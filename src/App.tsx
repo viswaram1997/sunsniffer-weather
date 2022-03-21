@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Loader from 'components/common/loader/loader';
 const LandingPage = React.lazy(() => import("views/landing-page"));
-const WeatherDetails = React.lazy(() => import("views/weather-details/weather-details"));
+const WeatherDetails = React.lazy(() => import("views/weather-details"));
 
 function App() {
   return (
