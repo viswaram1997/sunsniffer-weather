@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather Card should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="card-root-wrapper card"
+      data-testid="weather-card"
+    >
+      <div
+        class="card-body"
+      >
+        <div
+          class="card-details row"
+        >
+          <div
+            class="col-4"
+          >
+            Fri
+            
+          </div>
+          <div
+            class="col-2"
+          >
+            70
+            %
+          </div>
+          <div
+            class="col-3"
+          >
+            <img
+              src="http://openweathermap.org/img/wn/02d@2x.png"
+            />
+            <p>
+              Clouds
+            </p>
+          </div>
+          <div
+            class="col-3"
+          >
+            30.24
+             C °
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

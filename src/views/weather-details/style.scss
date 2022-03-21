@@ -1,0 +1,35 @@
+@import "scss-templates/_essential.scss";
+
+.weather-details-wrapper{
+    padding-top: toRem(40);
+    padding-bottom: toRem(20);
+    text-align: center;
+    background-color: $blue;
+    color: $white;
+    overflow-y: auto;
+    height: 100vh;
+    .error-message{
+        height: 70%;
+        width: 100%;
+        @include flex-vh-center();
+        font-size: toRem(20);
+        text-transform : capitalize;
+    }
+    .weather-header{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        div[class^="col"]{
+            text-align: center;
+            font-size: toRem(14);
+            padding-bottom: toRem(14);
+        }
+    }
+    .weather-cards-wrapper{
+        padding: toRem(8);
+        margin-top: toRem(40);
+        .card{
+            margin-bottom: toRem(15);
+        }
+    }
+}

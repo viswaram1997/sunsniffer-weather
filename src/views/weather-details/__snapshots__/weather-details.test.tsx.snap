@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather Details page should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="weather-details-wrapper"
+    >
+      <h2>
+        Weather Forecast for Next 5days
+      </h2>
+      <div
+        class="weather-cards-wrapper"
+      >
+        <div
+          class="weather-header row"
+        >
+          <div
+            class="col-md-4 col-3"
+          >
+            Day
+          </div>
+          <div
+            class="col-md-2 col-3"
+          >
+            Humidity
+          </div>
+          <div
+            class="col-md-3 col-3"
+          >
+            Weather
+          </div>
+          <div
+            class="col-md-3 col-3"
+          >
+            Temprature
+          </div>
+        </div>
+        <div
+          class="loader-wrapper "
+        >
+          <img
+            alt="loader"
+            class="loader-animation"
+            src="sunsniffer-loader.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
